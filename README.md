@@ -42,8 +42,46 @@ Schema electirca:
 https://wokwi.com/projects/412621229780445185
 
 video:
-
-
-
 https://github.com/user-attachments/assets/bc01bbce-af53-4587-8c4d-a1991d72b64e
+
+
+Tema 2:
+
+În această temă veți crea un joc asemanator cu TypeRacer.
+
+Jocul este în repaus. LED-ul RGB are culoarea albă.
+Se alege dificultatea jocului folosind butonul de dificultate, iar în terminal va apărea “Easy/Medium/Hard mode on!”.
+Se apasă butonul de start/stop.
+LED-ul clipește timp de 3 secunde, iar în terminal se va afișa numărătoarea înversă: 3, 2, 1.
+LED-ul devine verde și încep să apară cuvinte de tastat.
+La tastarea corectă, următorul cuvânt apare imediat. Dacă nu se tasteaza cuvântul în timpul stabilit de dificultate, va apărea un nou cuvânt.
+O greșeală face LED-ul să devină roșu. Pentru a corecta cuvântul, se va folosi tasta BackSpace.
+Dupa 30 de secunde, runda se termină, iar în terminal se va afișa scorul: numărul total de cuvinte scrise corect.
+Jocul se poate opri oricând cu butonul de start/stop.
+
+Componente:
+
+Arduino UNO (ATmega328P microcontroller)
+1x LED RGB (pentru a semnaliza dacă cuvântul corect e scris greșit sau nu)
+2x Butoane (pentru start/stop rundă și pentru selectarea dificultății)
+5x Rezistoare (3x 220/330 ohm, 2x 1000 ohm)
+Breadbord
+Fire de legătură
+
+Imagini cu setup ul fizic: 
+
+![WhatsApp Image 2024-11-07 at 00 23 25 (2)](https://github.com/user-attachments/assets/25e6a34d-5fb0-4925-925f-d79d6d11ff33)
+
+![WhatsApp Image 2024-11-07 at 00 23 25 (1)](https://github.com/user-attachments/assets/5ca6dda5-55b9-42c8-ad2b-f87d7c7ca68e)
+
+![WhatsApp Image 2024-11-07 at 00 23 25](https://github.com/user-attachments/assets/a3bebae0-d187-4d16-9b9f-b64b28819f33)
+
+Schema electrica:
+https://wokwi.com/projects/413263783922997249
+
+Video:
+https://github.com/user-attachments/assets/5a31ad6f-8f7b-4a75-aa1c-255782d2835c
+
+
+
 
